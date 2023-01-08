@@ -65,7 +65,7 @@ for _,v in pairs(getactors())do--phantom forces out here using actors
                 return{characters,players}
             end
             local Options={--optinos folder (dont worry u dont have to set these we have a ui now)
-                Enabled=false,
+                Enabled=true,
                 Target={"Head"},
                 Size=0,
                 Color=Color3.new(),
